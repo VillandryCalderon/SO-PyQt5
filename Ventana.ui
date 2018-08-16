@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>553</width>
+    <height>644</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QDialog{
+background-color: rgb(0, 0, 71);
+font-family: arial, verdana;
+}
+
+QLineEdit{
+border: 0;
+font-size: 14px;
+height: 30px;
+}
+
+QLabel{
+color: #fff;
+font-size: 14px;
+}
+
+QPushButton#boton{
+background-color: #000;
+color: #fff;
+font-size: 16px;
+border: 0;
+}
+
+QPushButton#boton:hover{
+background-color: orange;
+}
+
+QRadioButton{
+color: #fff;
+font-size: 14px;
+}
+QRadioButton:hover{
+background-color: orange;
+}
+</string>
+  </property>
+  <widget class="QPushButton" name="boton">
+   <property name="geometry">
+    <rect>
+     <x>389</x>
+     <y>100</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Ejecutar</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>150</y>
+     <width>521</width>
+     <height>341</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="3" column="1">
+     <widget class="QRadioButton" name="rdb14">
+      <property name="text">
+       <string>Tamaño de Archivo</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QRadioButton" name="rdb11">
+      <property name="text">
+       <string>Version Python</string>
+      </property>
+     </widget>
+    </item>
+    <item row="9" column="1">
+     <widget class="QRadioButton" name="rdb18">
+      <property name="text">
+       <string>Cantidad de Procesos en Cola</string>
+      </property>
+     </widget>
+    </item>
+    <item row="9" column="0">
+     <widget class="QRadioButton" name="rdb8">
+      <property name="text">
+       <string>Escribir Archivo</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="1">
+     <widget class="QRadioButton" name="rdb17">
+      <property name="text">
+       <string>Ruta de Ejecutable  en  Python</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <widget class="QRadioButton" name="rdb5">
+      <property name="text">
+       <string>Borrar Carpeta</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QRadioButton" name="rdb13">
+      <property name="text">
+       <string>Existe Directorio</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QRadioButton" name="rdb1">
+      <property name="text">
+       <string>Listar</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="QRadioButton" name="rdb16">
+      <property name="text">
+       <string>ID de Grupo real del Proceso Actual</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QRadioButton" name="rdb3">
+      <property name="text">
+       <string>RenombrarCarpeta</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QRadioButton" name="rdb2">
+      <property name="text">
+       <string>Crear Carpeta</string>
+      </property>
+     </widget>
+    </item>
+    <item row="11" column="1">
+     <widget class="QRadioButton" name="rdb19">
+      <property name="text">
+       <string>Cadena de 'n'  Bytes Random</string>
+      </property>
+     </widget>
+    </item>
+    <item row="11" column="0">
+     <widget class="QRadioButton" name="rdb9">
+      <property name="text">
+       <string>Fecha</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QRadioButton" name="rdb12">
+      <property name="text">
+       <string>Conocer Directorio</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QRadioButton" name="rdb4">
+      <property name="text">
+       <string>Crear Archivo</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QRadioButton" name="rdb15">
+      <property name="text">
+       <string>Fecha ultima mod al archivo</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="0">
+     <widget class="QRadioButton" name="rdb6">
+      <property name="text">
+       <string>Leer Archivo</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="0">
+     <widget class="QRadioButton" name="rdb7">
+      <property name="text">
+       <string>Borrar Achivo</string>
+      </property>
+     </widget>
+    </item>
+    <item row="12" column="1">
+     <widget class="QRadioButton" name="rdb20">
+      <property name="text">
+       <string>Salir</string>
+      </property>
+     </widget>
+    </item>
+    <item row="12" column="0">
+     <widget class="QRadioButton" name="rdb10">
+      <property name="text">
+       <string>Sistema Operativo</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="labelLenguaje">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>0</y>
+     <width>341</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>100</y>
+     <width>351</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string> Comando: </string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="nombre"/>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="nombre2"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="labelLenguaje2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>50</y>
+     <width>341</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
